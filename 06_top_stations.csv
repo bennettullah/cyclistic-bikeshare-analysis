@@ -1,0 +1,21 @@
+"rider_type","rank","start_station_name","total_rides","avg_ride_minutes"
+casual,1,DuSable Lake Shore Dr & Monroe St,30894,31.87
+casual,2,Navy Pier,26648,31.71
+casual,3,Streeter Dr & Grand Ave,23714,33.3
+casual,4,Michigan Ave & Oak St,22107,34.72
+casual,5,DuSable Lake Shore Dr & North Blvd,19056,26.62
+casual,6,Millennium Park,18815,34.02
+casual,7,Shedd Aquarium,16736,27.09
+casual,8,Dusable Harbor,15542,31.26
+casual,9,Theater on the Lake,15465,28.71
+casual,10,Michigan Ave & 8th St,11073,30.74
+member,1,Kingsbury St & Kinzie St,32014,9.07
+member,2,Clinton St & Washington Blvd,25635,10.52
+member,3,Clinton St & Madison St,22234,11.16
+member,4,Canal St & Madison St,22113,11.49
+member,5,Clark St & Elm St,21227,11.32
+member,6,Wells St & Elm St,19109,10.36
+member,7,State St & Chicago Ave,18982,10.8
+member,8,Clinton St & Jackson Blvd,18415,10.8
+member,9,Wells St & Concord Ln,18347,10.83
+member,10,Wells St & Huron St,17761,9.52

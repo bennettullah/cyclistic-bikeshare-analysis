@@ -1,0 +1,5 @@
+"rider_type","bike_type","total_rides","pct_within_rider_type","avg_ride_minutes"
+casual,electric_bike,1252181,65.01,14.89
+casual,classic_bike,674080,34.99,29.16
+member,electric_bike,2218635,63.16,11.34
+member,classic_bike,1294016,36.84,13.5
