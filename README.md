@@ -59,8 +59,8 @@ stations on weekends
 ## Repository Structure
 ```
 cyclistic-bikeshare-analysis/
-├── 02_processed_data/ │ ├── 01_rider_split.csv
-# Aggregated CSV files exported for Tableau
+├── 02_processed_data/
+│ ├── 01_rider_split.csv
 │ ├── 02_avg_duration.csv
 │ ├── 03_day_of_week.csv
 │ ├── 04_monthly.csv
