@@ -38,7 +38,7 @@ divvybikes.com/data-license-agreement)
 | 1 | Members account for **64.58%** of rides; casuals **35.42%** (1.9M trips) | Large
 conversion opportunity |
 | 2 | Casual riders average **19.89 mins/trip** vs members **12.13 mins** (64% longer)
-| Different use cases confirmed |
+|Different use cases confirmed |
 | 3 | Casuals peak **Saturday**; members peak **Tuesday–Thursday** | Completely
 opposite patterns |
 | 4 | **47%** of casual rides occur June–August — extreme seasonality | Campaign
