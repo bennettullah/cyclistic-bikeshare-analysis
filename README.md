@@ -33,20 +33,13 @@ marketing strategy to convert casual riders into annual members.
 divvybikes.com/data-license-agreement)
 ---
 ## Key Findings
-| # | Finding | Impact |
-|---|---------|--------|
-| 1 | Members account for **64.58%** of rides; casuals **35.42%** (1.9M trips) | Large
-conversion opportunity |
-| 2 | Casual riders average **19.89 mins/trip** vs members **12.13 mins** (64% longer)
-|Different use cases confirmed |
-| 3 | Casuals peak **Saturday**; members peak **Tuesday–Thursday** | Completely
-opposite patterns |
-| 4 | **47%** of casual rides occur June–August — extreme seasonality | Campaign
-timing: May–June |
-| 5 | Casual top stations: tourist attractions (Navy Pier, Millennium Park) | Geo-
-targeting opportunity |
-| 6 | Member top stations: transit hubs and business district intersections | Zero
-geographic overlap |
+
+- Members account for 64.58% of rides; casual riders 35.42% (1.9M trips)
+- Casual riders average 19.89 minutes vs members 12.13 minutes (64% longer than members)
+- Casual riders peak on weekends; members peak midweek
+- 47% of casual rides occur in summer (June–August)
+- Casual riders use tourist stations; members use business/transit hubs
+- Casual top stations: Navy Pier, Millennium Park.
 ---
 ## Top 3 Recommendations
 1. **Weekend Station Marketing** — Deploy signage at top casual stations Friday
