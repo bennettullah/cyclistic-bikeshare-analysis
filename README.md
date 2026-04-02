@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Analysis
 ### Google Data Analytics Professional Certificate — Capstone Project
-[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue)][(https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1?publish=yes)]
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue)][https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1?publish=yes]
 [![SQL](https://img.shields.io/badge/SQL-SQLite-green)](03_sql_scripts/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -11,7 +11,7 @@ This analysis examines 12 months of Cyclistic bike-share trip data
 between casual riders and annual members, informing a data-driven
 marketing strategy to convert casual riders into annual members.
 
-**Live Dashboard:** [View Interactive Dashboard on Tableau Public][(https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1?publish=yes)]
+**Live Dashboard:** [View Interactive Dashboard on Tableau Public][https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1?publish=yes]
 ---
 ## Business Task
 > *How do annual members and casual riders use Cyclistic bikes differently?*
@@ -85,6 +85,5 @@ cyclistic-bikeshare-analysis/
 | **Final clean dataset** | **5,438,912** | ✓ Ready for analysis |
 ---
 ## Contact
-- **LinkedIn:** [Your LinkedIn URL]
-- **Kaggle:** [Your Kaggle URL]
+- **LinkedIn:** [www.linkedin.com/in/bennettullah]
 - **Tableau Public:**[(https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1?publish=yes)]
