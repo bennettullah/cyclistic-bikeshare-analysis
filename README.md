@@ -43,11 +43,29 @@ divvybikes.com/data-license-agreement)
 ---
 ## Top 3 Recommendations
 1. **Weekend Station Marketing** — Deploy signage at top casual stations Friday
-evenings & Saturday mornings
+evenings & Saturday mornings.
+- Increase casual-to-member conversion rate by 8–12% over 3 months
+- Track new memberships originating from targeted stations
+- Compare performance vs non-targeted stations (control group)
+
 2. **Spring Membership Drive** — Launch discounted membership promotion May–June
 before peak casual season
+- Achieve 10–15% increase in new memberships vs pre-campaign baseline
+- Measure conversion uplift during campaign vs January–April period
+- Track short-term retention of newly converted members
+
 3. **Geofenced Digital Advertising** — Target mobile devices within 500m of top casual
 stations on weekends
+- Achieve 5–10% click-through rate (CTR)
+- Deliver 6–10% uplift in membership sign-ups from targeted locations
+- Reduce cost-per-acquisition (CPA) vs broad digital campaigns
+
+Limitations
+No PII available — analysis is trip-level, not user-level
+Cannot directly track individual conversions
+Measurement Approach:
+Use proxy metrics such as location-based sign-ups and pre/post campaign comparisons.
+
 ---
 ## Repository Structure
 ```
