@@ -64,6 +64,14 @@ This analysis examines 12 months of Cyclistic bike-share trip data (December 202
 
 ---
 
+## Limitations
+
+- The dataset does not include personally identifiable information (PII), so individual rider behaviour cannot be tracked across multiple trips.  
+- It is not possible to directly confirm whether a specific casual rider converted into a member.  
+These limitations mean results should be interpreted at an aggregate level rather than individual user level.
+
+---
+
 ## Repository Structure
 ```
 cyclistic-bikeshare-analysis/
@@ -115,7 +123,11 @@ cyclistic-bikeshare-analysis/
 | Top member station | Kingsbury St & Kinzie St |
 
 ---
+## About Me
 
+Aspiring Data Analyst with experience in SQL, data cleaning, and business insight generation. Strong background in financial services and customer operations, with a focus on using data to drive decision-making and improve customer outcomes.
+
+---
 ## Contact
 
 - **LinkedIn:** [linkedin.com/in/bennettullah](https://www.linkedin.com/in/bennettullah)
