@@ -82,6 +82,8 @@ These limitations mean results should be interpreted at an aggregate level rathe
 ## Repository Structure
 ```
 cyclistic-bikeshare-analysis/
+├── 01_raw_data/                # Raw CSVs not committed — 12 monthly files exceed GitHub's 100MB limit
+│                               # Source: https://divvy-tripdata.s3.amazonaws.com/index.html
 ├── 02_processed_data/          # Aggregated CSV exports for Tableau
 │   ├── 01_rider_split.csv
 │   ├── 02_avg_duration.csv
