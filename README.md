@@ -14,6 +14,13 @@ This analysis examines 12 months of Cyclistic bike-share trip data (December 202
 
 **Live Dashboard:** [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1)
 
+### Dashboard Preview
+
+[![Dashboard Overview](visualizations/dashboard_overview.png)](https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1)
+
+[![Dashboard Trends](visualizations/dashboard_trends.png)](https://public.tableau.com/app/profile/bennett.ullah/viz/CyclisticDashboardBikeShareAnalysis-Tableau/Dashboard1)
+
+*Click either image to open the full interactive dashboard on Tableau Public*
 ---
 
 ## Business Task
