@@ -101,6 +101,71 @@ cyclistic-bikeshare-analysis/
 
 ---
 
+## SQL Showcase
+
+Analysis was performed across three scripts in SQLite via DBeaver: table creation, data cleaning, and six analytical queries against 5,438,912 clean records. Two techniques worth highlighting:
+
+### Query 6 — Top 10 Start Stations per Rider Type
+**Techniques:** CTE · `ROW_NUMBER() OVER(PARTITION BY)` · `TRIM()` for non-NULL blank handling
+```sql
+-- Business question: Where do casual riders start trips? Enables geo-targeting strategy.
+-- Technique: ROW_NUMBER() OVER(PARTITION BY) returns top-N rows per group in a single pass.
+-- TRIM() catches blank station names that passed the NULL check — a real data quality edge case.
+
+WITH ranked_stations AS (
+  SELECT
+    member_casual AS rider_type,
+    start_station_name,
+    COUNT(*) AS total_rides,
+    ROUND(AVG(ride_length_minutes), 2) AS avg_ride_minutes,
+    ROW_NUMBER() OVER(
+      PARTITION BY member_casual
+      ORDER BY COUNT(*) DESC
+    ) AS rank_within_group
+  FROM cyclistic_trips_clean
+  WHERE TRIM(start_station_name) != ''
+  GROUP BY member_casual, start_station_name
+)
+SELECT
+  rider_type,
+  rank_within_group  AS rank,
+  start_station_name,
+  total_rides,
+  avg_ride_minutes
+FROM ranked_stations
+WHERE rank_within_group <= 10
+ORDER BY rider_type, rank_within_group;
+```
+
+**Result:** Zero overlap between casual and member top 10 stations — casual riders cluster at tourist destinations (Navy Pier, Millennium Park), members at transit hubs and business district intersections. This directly informed the geo-targeting recommendation.
+
+---
+
+### Query 5 — Bike Type Preference with Within-Group Percentages
+**Technique:** `SUM(COUNT(*)) OVER(PARTITION BY member_casual)` for percentages within each rider type
+```sql
+-- Business question: Which bike types does each rider type prefer?
+-- Technique: PARTITION BY member_casual calculates percentages within each group,
+-- not against the total dataset — a key distinction for accurate segment analysis.
+
+SELECT
+  member_casual AS rider_type,
+  rideable_type AS bike_type,
+  COUNT(*) AS total_rides,
+  ROUND(COUNT(*) * 100.0 /
+    SUM(COUNT(*)) OVER(PARTITION BY member_casual), 2) AS pct_within_rider_type,
+  ROUND(AVG(ride_length_minutes), 2) AS avg_ride_minutes
+FROM cyclistic_trips_clean
+GROUP BY member_casual, rideable_type
+ORDER BY member_casual, total_rides DESC;
+```
+
+**Result:** Casual riders on classic bikes average **29.16 minutes** — the highest engagement of any segment. Despite electric bikes being more popular by volume (65%), classic bike casual riders are the deepest engagers in the entire dataset.
+
+→ [View all six queries including Q1 window function and Q2 CTE](./03_sql_scripts/03_analysis.sql)
+
+---
+
 ## Data Cleaning Summary
 
 | Check | Finding | Action |
