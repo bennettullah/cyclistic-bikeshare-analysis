@@ -132,7 +132,7 @@ cyclistic-bikeshare-analysis/
 ---
 ## About Me
 
-Data Analyst with experience in SQL, data cleaning, and business insight generation. Strong background in financial services and customer operations, with a focus on using data to drive decision-making and improve customer outcomes.
+Data Analyst with a background in financial services and customer operations, specialising in SQL, data cleaning, and translating data into business decisions that improve customer outcomes.
 
 ---
 ## Contact
